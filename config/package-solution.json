@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "sp-webpart-dates-client-side-solution",
+    "id": "5473a001-7d79-4b20-b761-06e7ca93b721",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "sp-webpart-dates description"
+      },
+      "longDescription": {
+        "default": "sp-webpart-dates description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "sp-webpart-dates Feature",
+        "description": "The feature that activates elements of the sp-webpart-dates solution.",
+        "id": "5e5df587-5923-4a61-a4cd-0f07a13ade4d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/sp-webpart-dates.sppkg"
+  }
+}

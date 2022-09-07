@@ -1,0 +1,31 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "367d8354-c43a-4bf0-832d-25967e5b46e2",
+  "alias": "PageDatesWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Advanced
+    "group": { "default": "Advanced", "nb-NO": "Avansert" },
+    "title": { "default": "Publish date", "nb-NO": "Publiseringsdato"},
+    "description": { 
+      "default": "Web part letting you display customized updated and/or published dates.",
+      "nb-NO": "Nettdel som gjør at du kan vise sist oppdatert-dato og/eller publiseringsdato, og overstyre datoene ved behov."
+    },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "showDates": "Auto"
+    }
+  }]
+}

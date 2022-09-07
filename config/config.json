@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "page-dates-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pageDates/PageDatesWebPart.js",
+          "manifest": "./src/webparts/pageDates/PageDatesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PageDatesWebPartStrings": "lib/webparts/pageDates/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
